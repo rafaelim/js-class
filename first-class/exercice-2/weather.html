@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./weather.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather</h1>
+        <canvas id="weather-icon" width="128" height="128"></canvas>
+        <div class="weather">
+            <span>Description:</span>
+            <span id="description"></span><br>
+            <span>Temperature:</span>
+            <span id="temperature"></span><br>
+            <span>Timezone:</span>
+            <span id="timezone"></span><br>
+        </div>
+        <button class="scale-btn" onclick="changeScale()">Change Scale</button>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="./skycons.js"></script>
+<script src="./weather.js"></script>
+</html>
