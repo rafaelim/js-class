@@ -1,1 +1,1 @@
-# js-class
+# JS Class
